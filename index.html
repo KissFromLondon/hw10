@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HW 10: SVG, BEM, Retina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/normalize.css"
+    />
+  </head>
+  <body>
+      <div class="container__fluid">
+        <div class="container">
+          <header class="header">
+            <div class="logo__wrp">
+              <a href="#" class="logo__link">
+                <img
+                  srcset="img/logo.png 86w, img/logo@2x.png 172w"
+                  sizes="86px"
+                  alt="site logo"
+                  class="logo__img"
+                  src="img/logo.png"
+              /></a>
+            </div>
+            <nav class="header__nav">
+              <ul class="nav__list">
+                <li class="nav__list--item">
+                  <a class="nav__list--link" href="#">about</a>
+                </li>
+                <li class="nav__list--item">
+                  <a class="nav__list--link" href="#">service</a>
+                </li>
+                <li class="nav__list--item">
+                  <a class="nav__list--link" href="#">work</a>
+                </li>
+                <li class="nav__list--item">
+                  <a class="nav__list--link" href="#">blog</a>
+                </li>
+                <li class="nav__list--item">
+                  <a class="nav__list--link" href="#">contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__icons">
+              <a href="#" class="header__icon--link">
+                <svg>
+                    <use href="img/sprite.svg#cart"></use>
+                </svg>
+              </a>
+              <a href="#" class="header__icon--link"> 
+                  <svg>
+                        <use href="img/sprite.svg#search"></use>
+                  </svg>
+                </a>
+            </div>
+          </header>
+          <div class="header__titles">
+            <h4 class="header__sub">Creative Template</h4>
+            <h3 class="header__main">welcome <br> to mogo</h3>
+          </div>
+          <div class="header__btn--wrp">
+              <button type="button" class="header__btn">learn more</button>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <main>
+        <div class="main__titles">
+          <h3 class="main__sub">We work with</h3>
+          <h2 class="main__title">amazing services</h2>
+        </div>
+        <div class="services">
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                    <svg class="services__icon">
+                            <use href="img/sprite.svg#alarm"></use>
+                    </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">photography</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                <svg class="services__icon">
+                    <use href="img/sprite.svg#line"></use>
+            </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">web design</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                <svg class="services__icon">
+                    <use href="img/sprite.svg#computer"></use>
+            </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">creativity</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                <svg class="services__icon">
+                    <use href="img/sprite.svg#book"></use>
+            </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">seo</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                <svg class="services__icon">
+                    <use href="img/sprite.svg#home"></use>
+            </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">css/html</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+          <div class="services__item col4">
+            <div class="services__icon--wrp">
+                <svg class="services__icon">
+                    <use href="img/sprite.svg#image"></use>
+            </svg>
+            </div>
+            <div class="services__text--wrp col3">
+              <h4 class="services__title">digital</h4>
+              <p class="services__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                quidem beatae eos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="team">
+          <div class="team__titles">
+            <h3 class="team__sub">Who we are</h3>
+            <h2 class="team__title">meet our team</h2>
+          </div>
+          <p class="team__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eum
+            sed numquam, debitis ratione provident exercitationem commodi libero
+            earum quidem, sapiente dolorum repellat nulla sunt id placeat ea,
+            laborum consectetur! Atque, in temporibus alias voluptatem
+            repellendus nobis.
+          </p>
+          <div class="team__members">
+            <div class="team__member col4">
+              <div class="member__img--wrp">
+                <img
+                srcset="img/mattew.jpg 380w, img/mattew@2x.jpg 760w"
+                sizes="380px"
+                alt="Matthew Dix picture"
+                class="member__img"
+                src="img/mattew.jpg"
+            />
+                <div class="card__modal"></div>
+                <div class="card__icons--wrp">
+                  <a href="#" class="icons__btn">
+                    <svg class="icons__btn--img">
+                        <use href="img/icons_social.svg#icon-facebook"></use>
+                   </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-twitter"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-pinterest"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-instagram"></use>
+                     </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="member__description">
+                <h3 class="member__name">mattew dix</h3>
+                <h4 class="member__pos">Graphic Design</h4>
+              </div>
+            </div>
+            <div class="team__member col4">
+              <div class="member__img--wrp">
+                <img
+                  srcset="img/chris.jpg 380w, img/chris@2x.jpg 760w"
+                  sizes="380px"
+                  alt="Christopher Campbell picture"
+                  class="member__img"
+                  src="img/chris.jpg"
+              />
+                <div class="card__modal"></div>
+                <div class="card__icons--wrp">
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-facebook"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-twitter"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-pinterest"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-instagram"></use>
+                     </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="member__description">
+                <h3 class="member__name">christopher campbell</h3>
+                <h4 class="member__pos">Graphic Design</h4>
+              </div>
+            </div>
+            <div class="team__member col4">
+              <div class="member__img--wrp">
+                <img
+                srcset="img/michael.jpg 380w, img/michael@2x.jpg 760w"
+                sizes="380px"
+                alt="Michael Fertig picture"
+                class="member__img"
+                src="img/michael.jpg"
+            />
+                <div class="card__modal"></div>
+                <div class="card__icons--wrp">
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-facebook"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-twitter"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-pinterest"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="icons__btn">
+                      <svg class="icons__btn--img">
+                          <use href="img/icons_social.svg#icon-instagram"></use>
+                     </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="member__description">
+                <h3 class="member__name">michael fertig</h3>
+                <h4 class="member__pos">Graphic Design</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="container">
+      <footer>
+        <p class="copyright">
+          © 2016 MoGo Free PSD template by
+          <span class="copyright__colored">Laaqiq</span>
+        </p>
+        <form>
+          <input type="email" name="email" placeholder="Your Email.." />
+          <input type="submit" value="subscribe" />
+        </form>
+      </footer>
+    </div>
+  </body>
+</html>
