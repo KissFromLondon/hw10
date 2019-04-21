@@ -95,14 +95,14 @@ img {
   padding-left: 20rem;
 }
 
-.nav__list--link {
+.list__link {
   color: #fff;
   text-transform: uppercase;
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
 }
 
-.nav__list--link:hover::after {
+.list__link:hover::after {
 content: "";
 width: auto;
 height: 2px;
@@ -111,10 +111,10 @@ border-bottom: 3px solid #fce38a;
 padding-bottom: 0.625rem;
 }
 
-.nav__list--link:hover {
+.list__link:hover {
   color: #fce38a;
 }
-.nav__list--item {
+.list__item {
   --s: 2rem;
   height: 1.5625rem;
   display: inline-block;
@@ -122,15 +122,15 @@ padding-bottom: 0.625rem;
   padding-left: var(--s);
 }
 
-.nav__list--item:nth-child(1) {
+.list__item:nth-child(1) {
   padding-left: 0;
 }
 
-.nav__list--item:nth-child(5) {
+.list__item:nth-child(5) {
   padding-right: 0;
 }
 
-.header__icons {
+.icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,11 +139,11 @@ padding-bottom: 0.625rem;
           justify-content: space-between;
 }
 
-.header__icon--link:nth-child(1) {
+.icons__link:nth-child(1) {
   padding-right: 4rem;
 }
 
-.header__icon--link svg{
+.icons__link svg{
   --s: 1.25rem;
   fill: #fff;
   width: var(--s);
